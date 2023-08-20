@@ -1,6 +1,6 @@
 # Automatização de Cadastro
 <div align="center">
-  <img src="">
+  <img src="https://github.com/catianemarinho/buscador_cep/assets/97571709/7bacf28d-115a-432b-972d-c6187b10c697">
 </div>
 
 Este é um projeto de exemplo que demonstra como realizar um cadastro automatizado de dados usando a linguagem de programação Python e as biblioteca Selenium e Pandas.
@@ -24,3 +24,7 @@ O objetivo deste projeto é mostrar como é possível coletar dados de uma plani
 ## Contribuição
 
 Contribuições são bem-vindas! Se você encontrar bugs, melhorias ou novas funcionalidades que possam ser adicionadas, fique à vontade para criar um pull request.
+
+## Contato
+
+- **mail**: cat.50@hotmail.com
