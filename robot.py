@@ -18,12 +18,14 @@ def cadastro_web(dataframe):
 
     time.sleep(1)
 
-    botao = browser.find_element(By.XPATH, '//*[@id="submit"]')
-    botao.click()
+    button = browser.find_element(By.XPATH, '//*[@id="submit"]')
+    button.click()
 
     time.sleep(3)
 
     #iterando sobre as linhas do dataframe
+    # iterrows retorna uma tupla
+    # _ é para descartar o indice da tupla
     for _, linha in dataframe.iterrows():
         cliente = browser.find_element(By.XPATH, '//*[@id="nome"]')
         cliente.send_keys(linha['Nome'])
